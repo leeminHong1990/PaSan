@@ -1,0 +1,24 @@
+<PlistInfoProjectFile>
+  <PropertyGroup Name="biaoqing" Type="Plist" ID="77ed92c7-d281-4c97-9a21-55eb95783260" Version="3.10.0.0" />
+  <Content ExportType="Png" SortAlgorithm="MaxRects" PicturePadding="1" AllowRotation="False" AllowAnySize="False" AllowTrim="False" ctype="PlistInfoData">
+    <ImageFiles>
+      <FilePathData Path="biaoqing/bn_emotion1.png" />
+      <FilePathData Path="biaoqing/bn_emotion10.png" />
+      <FilePathData Path="biaoqing/bn_emotion11.png" />
+      <FilePathData Path="biaoqing/bn_emotion12.png" />
+      <FilePathData Path="biaoqing/bn_emotion13.png" />
+      <FilePathData Path="biaoqing/bn_emotion14.png" />
+      <FilePathData Path="biaoqing/bn_emotion15.png" />
+      <FilePathData Path="biaoqing/bn_emotion16.png" />
+      <FilePathData Path="biaoqing/bn_emotion2.png" />
+      <FilePathData Path="biaoqing/bn_emotion3.png" />
+      <FilePathData Path="biaoqing/bn_emotion4.png" />
+      <FilePathData Path="biaoqing/bn_emotion5.png" />
+      <FilePathData Path="biaoqing/bn_emotion6.png" />
+      <FilePathData Path="biaoqing/bn_emotion7.png" />
+      <FilePathData Path="biaoqing/bn_emotion8.png" />
+      <FilePathData Path="biaoqing/bn_emotion9.png" />
+    </ImageFiles>
+    <MaxSize Width="512" Height="256" />
+  </Content>
+</PlistInfoProjectFile>

@@ -1,0 +1,28 @@
+<PlistInfoProjectFile>
+  <PropertyGroup Name="PSGameAction" Type="Plist" ID="82276c7b-f8c9-4e49-a397-dc8b626a7b60" Version="3.10.0.0" />
+  <Content ExportType="Png" SortAlgorithm="MaxRects" PicturePadding="1" AllowRotation="True" AllowAnySize="False" AllowTrim="False" ctype="PlistInfoData">
+    <ImageFiles>
+      <FilePathData Path="PSGameAction/guang.png" />
+      <FilePathData Path="PSGameAction/k.png" />
+      <FilePathData Path="PSGameAction/la.png" />
+      <FilePathData Path="PSGameAction/ni.png" />
+      <FilePathData Path="PSGameAction/ying.png" />
+      <FilePathData Path="PSGameAction/you.png" />
+      <FilePathData Path="PSGameAction/zuo.png" />
+      <FilePathData Path="PSGameAction/jieriyanhua2_01.png" />
+      <FilePathData Path="PSGameAction/dou.png" />
+      <FilePathData Path="PSGameAction/jieriyanhua2_03.png" />
+      <FilePathData Path="PSGameAction/jieriyanhua2_05.png" />
+      <FilePathData Path="PSGameAction/jieriyanhua2_07.png" />
+      <FilePathData Path="PSGameAction/jieriyanhua2_09.png" />
+      <FilePathData Path="PSGameAction/jieriyanhua2_11.png" />
+      <FilePathData Path="PSGameAction/jieriyanhua2_13.png" />
+      <FilePathData Path="PSGameAction/jieriyanhua2_15.png" />
+      <FilePathData Path="PSGameAction/jtguang.png" />
+      <FilePathData Path="PSGameAction/P.png" />
+      <FilePathData Path="PSGameAction/yuan.png" />
+      <FilePathData Path="PSGameAction/guang2.png" />
+    </ImageFiles>
+    <MaxSize Width="1024" Height="1024" />
+  </Content>
+</PlistInfoProjectFile>

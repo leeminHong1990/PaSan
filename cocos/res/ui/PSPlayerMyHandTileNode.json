@@ -1,0 +1,149 @@
+{
+  "ID": "730ea45a-61b2-4201-a71a-cb79993f785c",
+  "Version": "3.10.0.0",
+  "Name": "PSPlayerMyHandTileNode",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 773,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "Poker/pic_poker_a1.png",
+              "Plist": "Poker.plist"
+            },
+            "Scale9Width": 153,
+            "Scale9Height": 214,
+            "AnchorPoint": {},
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "RightMargin": -153.0,
+            "TopMargin": -214.0,
+            "Tag": 780,
+            "ActionTag": -1427641721,
+            "Size": {
+              "X": 153.0,
+              "Y": 214.0
+            },
+            "Name": "tile_img_0",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "Poker/pic_poker_a1.png",
+              "Plist": "Poker.plist"
+            },
+            "Scale9Width": 153,
+            "Scale9Height": 214,
+            "AnchorPoint": {},
+            "Position": {
+              "X": 170.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 170.0,
+            "RightMargin": -323.0,
+            "TopMargin": -214.0,
+            "Tag": 780,
+            "ActionTag": -1427641721,
+            "Size": {
+              "X": 153.0,
+              "Y": 214.0
+            },
+            "Name": "tile_img_1",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "Poker/pic_poker_a1.png",
+              "Plist": "Poker.plist"
+            },
+            "Scale9Width": 153,
+            "Scale9Height": 214,
+            "AnchorPoint": {},
+            "Position": {
+              "X": 340.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 340.0,
+            "RightMargin": -493.0,
+            "TopMargin": -214.0,
+            "Tag": 780,
+            "ActionTag": -1427641721,
+            "Size": {
+              "X": 153.0,
+              "Y": 214.0
+            },
+            "Name": "tile_img_2",
+            "ctype": "ImageViewObjectData"
+          }
+        ],
+        "Size": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Name": "Node",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "Poker.plist",
+        "Poker.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Node"
+}

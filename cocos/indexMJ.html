@@ -1,0 +1,166 @@
+<html> 
+<title>麻将牌设置</title>
+ <head>  
+    <meta charset="utf-8" />  
+ </head>  
+<body>
+    <font size="5">麻将类型</font>
+    <br/>
+    <input type=text id="game" value="0018lsbmzmj" style="width:150px;height:30px;text-align:center;font-size:25px;">
+    <br/><br/>
+    <font size="5">财神</font> 
+
+    <input id="king" type=text style="width:100px;height:35px;text-align:center;font-size:25px">
+     <font size="5">房主</font>
+    <input id="owner" style="width:300px;height:35px;font-size:25px">
+    <br/>
+    <font size="5">玩家初始手牌</font> 
+    <br/>
+    <form id="hand_form" action="" method="get"/>
+       <script type="text/javaScript">
+            var hand_form = document.getElementById("hand_form");
+            var input_h5 = ""
+            for(var i=0;i<4;i++){
+                input_h5 += "玩家" + String(i) + "："
+                for (var j = 0; j < 16; j++) {
+                    if(j == 13){
+                        input_h5 += "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"
+                    }
+                    input_h5 += '<input type="number" ' +
+                    'id="tile' + String(i) + "_" + String(j) + '" ' +
+                    'oninput="if(value>100){value=100;}if(value<0){value=0}" ' +
+                    'style="width:100px;height:40px;text-align:center;font-size:25px;">'
+                }
+                input_h5 += '<br/>'
+                // console.log(input_h5)
+                hand_form.innerHTML = input_h5
+            }
+        </script>
+   </form> 
+   <font size="5">牌堆初始牌(以英文字符逗号分隔)</font>
+   <br/>
+   <input type=text id="topList" style="width:1500px;height:60px;font-size:25px">
+   <br/>
+   <font size="5">1-9万:[1, 2, 3, 4, 5, 6, 7, 8, 9]</font>
+   <br/>
+   <font size="5">1-9条:[31, 32, 33, 34, 35, 36, 37, 38, 39]</font>
+   <br/>
+   <font size="5">1-9筒:[51, 52, 53, 54, 55, 56, 57, 58, 59]</font>
+   <br/>
+   <font size="5">东南西北:[71, 72, 73, 74]</font>
+   <br/>
+   <font size="5">中发白:[75, 76, 77]</font>
+   <br/>
+   <font size="5">春夏秋冬:[91, 92, 93, 94]</font>
+   <br/>
+   <font size="5">梅兰竹菊:[95, 96, 97, 98]</font>
+   <br/>
+   <br/>
+   <br/>
+   <script type="text/javaScript">
+        var charracter = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+        var bamboo = [31, 32, 33, 34, 35, 36, 37, 38, 39]
+        var dot = [51, 52, 53, 54, 55, 56, 57, 58, 59]
+        var winds = [71, 72, 73, 74]
+        var dragons = [75, 76, 77]
+        var season = [91, 92, 93, 94]
+        var flower = [95, 96, 97, 98]
+        var valid_list = [charracter, bamboo, dot, winds, dragons, season, flower]
+        function isValid(value){
+            for (var i = 0; i < valid_list.length; i++) {
+                if(valid_list[i].indexOf(value) >= 0){
+                    return true;
+                }
+            }
+            return false;
+        }
+
+ function trim(str){  
+            return str.replace(/^(\s|\u00A0)+/,'').replace(/(\s|\u00A0)+$/,'');  
+        }
+
+
+        function getXMLHttpRequest() {
+            var xhr = window.XMLHttpRequest ? new window.XMLHttpRequest() : new ActiveXObject("MSXML2.XMLHTTP");
+            xhr.timeout = 10000;
+            if (xhr.ontimeout === undefined) {
+                xhr._timeoutId = -1;
+            }
+            return xhr;
+        }
+
+        function submit(){
+            console.log("submit")
+            var submitDict = {"kingTiles":[], "handTiles":[[],[],[],[]], "topList":[]}
+            var game = document.getElementById("game").value
+            if (game.length <= 0) {
+                console.log("please input game.")
+                alert("请输入游戏名称")
+                return
+            }
+            // 财神
+            var kingTile = document.getElementById("king").value
+            var kingTile_list = kingTile.split(",")
+            for (var i = 0; i < kingTile_list.length; i++) {
+                var reg = /^[0-9]+.?[0-9]*$/;
+                if (reg.test(kingTile_list[i])) {
+                    var t = Math.floor(Number(kingTile_list[i]))
+                    if (isValid(t)) {
+                        submitDict["kingTiles"].push(t)
+                    }
+                }
+            }
+            // kingTile =  Math.floor(Number(kingTile))
+            // if(isValid(kingTile)){
+            //     submitDict["kingTiles"].push(kingTile)
+            // }
+            // 初始手牌
+            for(var i=0;i<4;i++){
+                for (var j = 0; j < 16; j++) {
+                    var element = document.getElementById("tile" + String(i) + "_" + String(j))
+                    if (element) {
+                        var t = Math.floor(Number(element.value))
+                        if (isValid(t)) {
+                            submitDict["handTiles"][i].push(t)
+                        }
+                    }
+                }
+            }
+            // 初始牌堆
+            var initCards = document.getElementById("topList").value
+            var initCards_list = initCards.split(",")
+            for (var i = 0; i < initCards_list.length; i++) {
+                var reg = /^[0-9]+.?[0-9]*$/;
+                if (reg.test(initCards_list[i])) {
+                    var t = Math.floor(Number(initCards_list[i]))
+                    if (isValid(t)) {
+                        submitDict["topList"].push(t)
+                    }
+                }
+            }
+            // //对象转json
+            // var data = {"user":[{"name":"John1","pwd":"123"},{"name":"John2","pwd":"1233"}]}; 
+            // var json_str = JSON.stringify(data);
+            // alert(json_str);
+             
+            // //json字符串转对象
+            // var userObj='{"user":[{"name":"John","pwd":"123"}]}';
+            // var json = $.parseJSON(userObj); 
+
+            var jsonStr = JSON.stringify(submitDict)
+
+            console.log(game, jsonStr)
+            var notice_xhr = getXMLHttpRequest();
+            notice_xhr.open("GET", 'http://192.168.1.12:9080/js?from=js&game=' + game + '&val=' + jsonStr +'&owner=' + trim(document.getElementById('owner').value||""), true);
+            notice_xhr.onreadystatechange = function(){
+                 if(notice_xhr.readyState == 4 && notice_xhr.status == 200){
+                    console.log(notice_xhr.responseText)
+                    alert(notice_xhr.responseText)
+                } 
+            }
+            notice_xhr.send();
+        }
+    </script>
+   <button name="subject" type="submit" onclick="submit()" value="提交" style="width:500px;height:80px;font-size:25px">提交</button>
+</body>  
+</html>  

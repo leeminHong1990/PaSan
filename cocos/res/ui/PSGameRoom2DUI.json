@@ -1,0 +1,4037 @@
+{
+  "ID": "70837580-0a52-403f-b827-4bdcb664fb24",
+  "Version": "3.10.0.0",
+  "Name": "PSGameRoom2DUI",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 18,
+        "Children": [
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 102,
+            "SingleColor": {
+              "R": 26,
+              "G": 26,
+              "B": 26
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9OriginX": -422,
+            "Scale9OriginY": -237,
+            "Scale9Width": 844,
+            "Scale9Height": 474,
+            "TouchEnable": true,
+            "AnchorPoint": {},
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PercentWidthEnable": true,
+            "PercentHeightEnable": true,
+            "PercentWidthEnabled": true,
+            "PercentHeightEnabled": true,
+            "PreSize": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "Tag": 6036,
+            "ActionTag": 956068045,
+            "Size": {
+              "X": 1280.0,
+              "Y": 720.0
+            },
+            "Name": "bg_panel",
+            "ctype": "PanelObjectData"
+          },
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 102,
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 640.0,
+              "Y": 598.32
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PositionPercentXEnabled": true,
+            "PositionPercentYEnabled": true,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.831
+            },
+            "PreSize": {
+              "X": 0.3125,
+              "Y": 0.0556
+            },
+            "LeftMargin": 440.0,
+            "RightMargin": 440.0,
+            "TopMargin": 101.68,
+            "BottomMargin": 578.32,
+            "Tag": 649,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "PSGameRoomUI/score_img.png",
+                  "Plist": "PSGameRoomUI.plist"
+                },
+                "Scale9OriginX": 61,
+                "Scale9OriginY": 16,
+                "Scale9Width": 114,
+                "Scale9Height": 36,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 200.0,
+                  "Y": 20.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.5
+                },
+                "PreSize": {
+                  "X": 0.59,
+                  "Y": 1.7
+                },
+                "LeftMargin": 82.0,
+                "RightMargin": 82.0,
+                "TopMargin": -14.0,
+                "BottomMargin": -14.0,
+                "Tag": 648,
+                "ActionTag": 1470998603,
+                "Size": {
+                  "X": 236.0,
+                  "Y": 68.0
+                },
+                "Name": "sum_score_img",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "IsCustomSize": true,
+                "FontSize": 35,
+                "LabelText": "500",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "font/zhunyuan.ttf",
+                  "Plist": ""
+                },
+                "HorizontalAlignmentType": "HT_Center",
+                "VerticalAlignmentType": "VT_Center",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 208.0,
+                  "Y": 11.2
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "G": 210,
+                  "B": 0
+                },
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.52,
+                  "Y": 0.28
+                },
+                "PreSize": {
+                  "X": 0.35,
+                  "Y": 0.8
+                },
+                "LeftMargin": 138.0,
+                "RightMargin": 122.0,
+                "TopMargin": 12.8,
+                "BottomMargin": -4.8,
+                "Tag": 652,
+                "ActionTag": 484156491,
+                "Size": {
+                  "X": 140.0,
+                  "Y": 32.0
+                },
+                "Name": "sum_score_label",
+                "ctype": "TextObjectData"
+              }
+            ],
+            "ActionTag": -845751923,
+            "Size": {
+              "X": 400.0,
+              "Y": 40.0
+            },
+            "Name": "sum_score_panel",
+            "ctype": "PanelObjectData"
+          },
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 102,
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 632.96,
+              "Y": 663.048
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PositionPercentXEnabled": true,
+            "PositionPercentYEnabled": true,
+            "PrePosition": {
+              "X": 0.4945,
+              "Y": 0.9209
+            },
+            "PreSize": {
+              "X": 0.3125,
+              "Y": 0.0694
+            },
+            "LeftMargin": 432.96,
+            "RightMargin": 447.04,
+            "TopMargin": 31.952,
+            "BottomMargin": 638.048,
+            "Tag": 12297,
+            "Children": [
+              {
+                "IsCustomSize": true,
+                "FontSize": 23,
+                "LabelText": "房号:123456",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "font/zhunyuan.ttf",
+                  "Plist": ""
+                },
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 2.0,
+                  "Y": 25.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.005,
+                  "Y": 0.5
+                },
+                "PreSize": {
+                  "X": 0.38,
+                  "Y": 0.64
+                },
+                "LeftMargin": 2.0,
+                "RightMargin": 246.0,
+                "TopMargin": 9.0,
+                "BottomMargin": 9.0,
+                "Tag": 12303,
+                "ActionTag": -1714710002,
+                "Size": {
+                  "X": 152.0,
+                  "Y": 32.0
+                },
+                "Name": "room_id_label",
+                "ctype": "TextObjectData"
+              },
+              {
+                "IsCustomSize": true,
+                "FontSize": 23,
+                "LabelText": "局数:   4/8",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "font/zhunyuan.ttf",
+                  "Plist": ""
+                },
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 282.32,
+                  "Y": 25.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.7058,
+                  "Y": 0.5
+                },
+                "PreSize": {
+                  "X": 0.35,
+                  "Y": 0.64
+                },
+                "LeftMargin": 282.32,
+                "RightMargin": -22.32,
+                "TopMargin": 9.0,
+                "BottomMargin": 9.0,
+                "Tag": 12304,
+                "ActionTag": -1658126829,
+                "Size": {
+                  "X": 140.0,
+                  "Y": 32.0
+                },
+                "Name": "round_label",
+                "ctype": "TextObjectData"
+              },
+              {
+                "IsCustomSize": true,
+                "FontSize": 23,
+                "LabelText": "轮数: 20/20",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "font/zhunyuan.ttf",
+                  "Plist": ""
+                },
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 148.32,
+                  "Y": 25.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.3708,
+                  "Y": 0.5
+                },
+                "PreSize": {
+                  "X": 0.35,
+                  "Y": 0.64
+                },
+                "LeftMargin": 148.32,
+                "RightMargin": 111.68,
+                "TopMargin": 9.0,
+                "BottomMargin": 9.0,
+                "Tag": 568,
+                "ActionTag": -822139750,
+                "Size": {
+                  "X": 140.0,
+                  "Y": 32.0
+                },
+                "Name": "bout_label",
+                "ctype": "TextObjectData"
+              },
+              {
+                "IsCustomSize": true,
+                "FontSize": 23,
+                "LabelText": "局数:   4/8",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "font/zhunyuan.ttf",
+                  "Plist": ""
+                },
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 428.32,
+                  "Y": 25.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 1.0708,
+                  "Y": 0.5
+                },
+                "PreSize": {
+                  "X": 0.35,
+                  "Y": 0.64
+                },
+                "LeftMargin": 428.32,
+                "RightMargin": -168.3199,
+                "TopMargin": 9.0,
+                "BottomMargin": 9.0,
+                "Tag": 1592,
+                "ActionTag": -1025774140,
+                "Size": {
+                  "X": 140.0,
+                  "Y": 32.0
+                },
+                "VisibleForFrame": false,
+                "Name": "table_idx_label",
+                "ctype": "TextObjectData"
+              }
+            ],
+            "ActionTag": -220757042,
+            "Size": {
+              "X": 400.0,
+              "Y": 50.0
+            },
+            "Name": "round_info_panel",
+            "ctype": "PanelObjectData"
+          },
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 102,
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 640.0,
+              "Y": 288.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PositionPercentXEnabled": true,
+            "PositionPercentYEnabled": true,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.4
+            },
+            "PreSize": {
+              "X": 0.0781,
+              "Y": 0.1389
+            },
+            "LeftMargin": 590.0,
+            "RightMargin": 590.0,
+            "TopMargin": 382.0,
+            "BottomMargin": 238.0,
+            "Tag": 173,
+            "Children": [
+              {
+                "ClipAble": false,
+                "BackColorAlpha": 102,
+                "SingleColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 50.0,
+                  "Y": 50.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.5
+                },
+                "PreSize": {
+                  "X": 1.16,
+                  "Y": 1.16
+                },
+                "LeftMargin": -8.0,
+                "RightMargin": -8.0,
+                "TopMargin": -8.0,
+                "BottomMargin": -8.0,
+                "Tag": 2708,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "GameRoom2DUI/clock_img.png",
+                      "Plist": ""
+                    },
+                    "Scale9OriginX": 23,
+                    "Scale9OriginY": 36,
+                    "Scale9Width": 40,
+                    "Scale9Height": 18,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 58.0,
+                      "Y": 58.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.5
+                    },
+                    "PreSize": {
+                      "X": 0.7414,
+                      "Y": 0.7759
+                    },
+                    "LeftMargin": 15.0,
+                    "RightMargin": 15.0,
+                    "TopMargin": 13.0,
+                    "BottomMargin": 13.0,
+                    "Tag": 1603,
+                    "ActionTag": -565520609,
+                    "Size": {
+                      "X": 86.0,
+                      "Y": 90.0
+                    },
+                    "Name": "lefttime_bg",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "LabelText": "15",
+                    "LabelBMFontFile_CNB": {
+                      "Type": "Normal",
+                      "Path": "GameRoom2DUI/number4.fnt",
+                      "Plist": ""
+                    },
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 57.42,
+                      "Y": 49.88
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.495,
+                      "Y": 0.43
+                    },
+                    "PreSize": {
+                      "X": 0.3276,
+                      "Y": 0.2759
+                    },
+                    "LeftMargin": 38.42,
+                    "RightMargin": 39.58,
+                    "TopMargin": 50.12,
+                    "BottomMargin": 33.88,
+                    "Tag": 1602,
+                    "ActionTag": -736872694,
+                    "Size": {
+                      "X": 38.0,
+                      "Y": 32.0
+                    },
+                    "Name": "lefttime_label",
+                    "ctype": "TextBMFontObjectData"
+                  }
+                ],
+                "ActionTag": -1905160143,
+                "Size": {
+                  "X": 116.0,
+                  "Y": 116.0
+                },
+                "Name": "cur_player_panel",
+                "ctype": "PanelObjectData"
+              }
+            ],
+            "ActionTag": 1848235869,
+            "Size": {
+              "X": 100.0,
+              "Y": 100.0
+            },
+            "VisibleForFrame": false,
+            "Name": "game_info_panel",
+            "ctype": "PanelObjectData"
+          },
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 102,
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 381.184,
+              "Y": 184.392
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PositionPercentXEnabled": true,
+            "PositionPercentYEnabled": true,
+            "PrePosition": {
+              "X": 0.2978,
+              "Y": 0.2561
+            },
+            "PreSize": {
+              "X": 0.0938,
+              "Y": 0.2222
+            },
+            "LeftMargin": 321.184,
+            "RightMargin": 838.816,
+            "TopMargin": 455.608,
+            "BottomMargin": 104.392,
+            "Tag": 1477,
+            "Children": [
+              {
+                "ClipAble": false,
+                "BackColorAlpha": 102,
+                "SingleColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 144.0,
+                  "Y": -0.8
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 1.2,
+                  "Y": -0.005
+                },
+                "PreSize": {
+                  "X": 4.0,
+                  "Y": 1.3375
+                },
+                "LeftMargin": 144.0,
+                "RightMargin": -504.0,
+                "TopMargin": -53.2,
+                "BottomMargin": -0.8,
+                "Tag": 1515,
+                "Children": [
+                  {
+                    "ClipAble": false,
+                    "BackColorAlpha": 102,
+                    "SingleColor": {
+                      "R": 150,
+                      "G": 200
+                    },
+                    "FirstColor": {
+                      "R": 150,
+                      "G": 200
+                    },
+                    "EndColor": {},
+                    "ColorVector": {
+                      "ScaleY": 1.0
+                    },
+                    "Scale9Width": 1,
+                    "Scale9Height": 1,
+                    "TouchEnable": true,
+                    "AnchorPoint": {},
+                    "Position": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.4167,
+                      "Y": 0.9346
+                    },
+                    "RightMargin": 280.0,
+                    "TopMargin": 14.0,
+                    "Tag": 421,
+                    "Children": [
+                      {
+                        "ClipAble": false,
+                        "BackColorAlpha": 102,
+                        "SingleColor": {
+                          "R": 150,
+                          "G": 200
+                        },
+                        "FirstColor": {
+                          "R": 150,
+                          "G": 200
+                        },
+                        "EndColor": {},
+                        "ColorVector": {
+                          "ScaleY": 1.0
+                        },
+                        "Scale9Width": 1,
+                        "Scale9Height": 1,
+                        "AnchorPoint": {},
+                        "Position": {
+                          "X": 0.0,
+                          "Y": 0.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.0,
+                          "Y": 0.0
+                        },
+                        "PreSize": {
+                          "X": 1.75,
+                          "Y": 0.75
+                        },
+                        "RightMargin": -150.0,
+                        "TopMargin": 50.0,
+                        "Tag": 584,
+                        "Children": [
+                          {
+                            "FileData": {
+                              "Type": "MarkedSubImage",
+                              "Path": "Poker/pic_poker_a1.png",
+                              "Plist": "Poker.plist"
+                            },
+                            "Scale9Width": 153,
+                            "Scale9Height": 214,
+                            "AnchorPoint": {},
+                            "Position": {
+                              "X": 0.0,
+                              "Y": 0.0
+                            },
+                            "Scale": {
+                              "ScaleX": 0.7,
+                              "ScaleY": 0.7
+                            },
+                            "CColor": {},
+                            "IconVisible": false,
+                            "PrePosition": {
+                              "X": 0.0,
+                              "Y": 0.0
+                            },
+                            "PreSize": {
+                              "X": 0.4371,
+                              "Y": 1.4267
+                            },
+                            "RightMargin": 197.0,
+                            "TopMargin": -64.0,
+                            "Tag": 424,
+                            "ActionTag": -1470226239,
+                            "Size": {
+                              "X": 153.0,
+                              "Y": 214.0
+                            },
+                            "Name": "tile_img_0",
+                            "ctype": "ImageViewObjectData"
+                          },
+                          {
+                            "FileData": {
+                              "Type": "MarkedSubImage",
+                              "Path": "Poker/pic_poker_a1.png",
+                              "Plist": "Poker.plist"
+                            },
+                            "Scale9Width": 153,
+                            "Scale9Height": 214,
+                            "AnchorPoint": {},
+                            "Position": {
+                              "X": 120.0,
+                              "Y": 0.0
+                            },
+                            "Scale": {
+                              "ScaleX": 0.7,
+                              "ScaleY": 0.7
+                            },
+                            "CColor": {},
+                            "IconVisible": false,
+                            "PrePosition": {
+                              "X": 0.3429,
+                              "Y": 0.0
+                            },
+                            "PreSize": {
+                              "X": 0.4371,
+                              "Y": 1.4267
+                            },
+                            "LeftMargin": 120.0,
+                            "RightMargin": 77.0,
+                            "TopMargin": -64.0,
+                            "Tag": 423,
+                            "ActionTag": 109522417,
+                            "Size": {
+                              "X": 153.0,
+                              "Y": 214.0
+                            },
+                            "Name": "tile_img_1",
+                            "ctype": "ImageViewObjectData"
+                          },
+                          {
+                            "FileData": {
+                              "Type": "MarkedSubImage",
+                              "Path": "Poker/pic_poker_a1.png",
+                              "Plist": "Poker.plist"
+                            },
+                            "Scale9Width": 153,
+                            "Scale9Height": 214,
+                            "AnchorPoint": {},
+                            "Position": {
+                              "X": 240.0,
+                              "Y": 0.0
+                            },
+                            "Scale": {
+                              "ScaleX": 0.7,
+                              "ScaleY": 0.7
+                            },
+                            "CColor": {},
+                            "IconVisible": false,
+                            "PrePosition": {
+                              "X": 0.6857,
+                              "Y": 0.0
+                            },
+                            "PreSize": {
+                              "X": 0.4371,
+                              "Y": 1.4267
+                            },
+                            "LeftMargin": 240.0,
+                            "RightMargin": -43.0,
+                            "TopMargin": -64.0,
+                            "Tag": 422,
+                            "ActionTag": -1540839557,
+                            "Size": {
+                              "X": 153.0,
+                              "Y": 214.0
+                            },
+                            "Name": "tile_img_2",
+                            "ctype": "ImageViewObjectData"
+                          }
+                        ],
+                        "ActionTag": 1406923651,
+                        "Size": {
+                          "X": 350.0,
+                          "Y": 150.0
+                        },
+                        "Name": "poker_panel",
+                        "ctype": "PanelObjectData"
+                      },
+                      {
+                        "FileData": {
+                          "Type": "MarkedSubImage",
+                          "Path": "PSGameRoomUI/press_score_img.png",
+                          "Plist": "PSGameRoomUI.plist"
+                        },
+                        "Scale9OriginX": 59,
+                        "Scale9OriginY": 16,
+                        "Scale9Width": 27,
+                        "Scale9Height": 5,
+                        "AnchorPoint": {},
+                        "Position": {
+                          "X": 350.0,
+                          "Y": 11.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 1.75,
+                          "Y": 0.055
+                        },
+                        "PreSize": {
+                          "X": 0.725,
+                          "Y": 0.185
+                        },
+                        "LeftMargin": 350.0,
+                        "RightMargin": -295.0,
+                        "TopMargin": 152.0,
+                        "BottomMargin": 11.0,
+                        "Tag": 622,
+                        "Children": [
+                          {
+                            "IsCustomSize": true,
+                            "FontSize": 26,
+                            "LabelText": "1000",
+                            "HorizontalAlignmentType": "HT_Center",
+                            "VerticalAlignmentType": "VT_Center",
+                            "OutlineColor": {
+                              "G": 0,
+                              "B": 0
+                            },
+                            "ShadowColor": {
+                              "R": 110,
+                              "G": 110,
+                              "B": 110
+                            },
+                            "ShadowOffsetX": 2.0,
+                            "ShadowOffsetY": -2.0,
+                            "AnchorPoint": {
+                              "ScaleX": 0.5,
+                              "ScaleY": 0.5
+                            },
+                            "Position": {
+                              "X": 62.35,
+                              "Y": 18.5
+                            },
+                            "Scale": {
+                              "ScaleX": 1.0,
+                              "ScaleY": 1.0
+                            },
+                            "CColor": {
+                              "G": 210,
+                              "B": 0
+                            },
+                            "IconVisible": false,
+                            "PositionPercentXEnabled": true,
+                            "PositionPercentYEnabled": true,
+                            "PrePosition": {
+                              "X": 0.43,
+                              "Y": 0.5
+                            },
+                            "PreSize": {
+                              "X": 0.4897,
+                              "Y": 0.8649
+                            },
+                            "LeftMargin": 26.85,
+                            "RightMargin": 47.15,
+                            "TopMargin": 2.5,
+                            "BottomMargin": 2.5,
+                            "Tag": 621,
+                            "ActionTag": -1943426478,
+                            "Size": {
+                              "X": 71.0,
+                              "Y": 32.0
+                            },
+                            "Name": "score_label",
+                            "ctype": "TextObjectData"
+                          }
+                        ],
+                        "ActionTag": -308496787,
+                        "Size": {
+                          "X": 145.0,
+                          "Y": 37.0
+                        },
+                        "Name": "score_img",
+                        "ctype": "ImageViewObjectData"
+                      },
+                      {
+                        "FileData": {
+                          "Type": "MarkedSubImage",
+                          "Path": "PSGameRoomUI/word_img.png",
+                          "Plist": "PSGameRoomUI.plist"
+                        },
+                        "Scale9OriginX": 11,
+                        "Scale9OriginY": 24,
+                        "Scale9Width": 12,
+                        "Scale9Height": 26,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 400.0,
+                          "Y": 100.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PositionPercentXEnabled": true,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": 2.0,
+                          "Y": 0.5
+                        },
+                        "PreSize": {
+                          "X": 0.17,
+                          "Y": 0.37
+                        },
+                        "LeftMargin": 383.0,
+                        "RightMargin": -217.0,
+                        "TopMargin": 63.0,
+                        "BottomMargin": 63.0,
+                        "Tag": 1315,
+                        "Children": [
+                          {
+                            "IsCustomSize": true,
+                            "FontSize": 26,
+                            "LabelText": "对\n子",
+                            "FontResource": {
+                              "Type": "Normal",
+                              "Path": "font/zhunyuan.ttf",
+                              "Plist": ""
+                            },
+                            "HorizontalAlignmentType": "HT_Center",
+                            "VerticalAlignmentType": "VT_Center",
+                            "OutlineColor": {
+                              "G": 0,
+                              "B": 0
+                            },
+                            "ShadowColor": {
+                              "R": 110,
+                              "G": 110,
+                              "B": 110
+                            },
+                            "ShadowOffsetX": 2.0,
+                            "ShadowOffsetY": -2.0,
+                            "AnchorPoint": {
+                              "ScaleX": 0.5,
+                              "ScaleY": 0.5
+                            },
+                            "Position": {
+                              "X": 17.0,
+                              "Y": 37.0
+                            },
+                            "Scale": {
+                              "ScaleX": 1.0,
+                              "ScaleY": 1.0
+                            },
+                            "CColor": {
+                              "G": 210,
+                              "B": 0
+                            },
+                            "IconVisible": false,
+                            "PositionPercentXEnabled": true,
+                            "PositionPercentYEnabled": true,
+                            "PrePosition": {
+                              "X": 0.5,
+                              "Y": 0.5
+                            },
+                            "PreSize": {
+                              "X": 0.9412,
+                              "Y": 0.8919
+                            },
+                            "LeftMargin": 1.0,
+                            "RightMargin": 1.0,
+                            "TopMargin": 4.0,
+                            "BottomMargin": 4.0,
+                            "Tag": 261,
+                            "ActionTag": -1774595826,
+                            "Size": {
+                              "X": 32.0,
+                              "Y": 66.0
+                            },
+                            "Name": "label",
+                            "ctype": "TextObjectData"
+                          }
+                        ],
+                        "ActionTag": -798887472,
+                        "Size": {
+                          "X": 34.0,
+                          "Y": 74.0
+                        },
+                        "VisibleForFrame": false,
+                        "Name": "type_img",
+                        "ctype": "ImageViewObjectData"
+                      },
+                      {
+                        "FileData": {
+                          "Type": "Normal",
+                          "Path": "PSGameRoomUI/my_poker_img.png",
+                          "Plist": ""
+                        },
+                        "Scale9OriginX": 47,
+                        "Scale9OriginY": 30,
+                        "Scale9Width": 253,
+                        "Scale9Height": 89,
+                        "AnchorPoint": {},
+                        "Position": {
+                          "X": 0.0,
+                          "Y": 0.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PrePosition": {
+                          "X": 0.0,
+                          "Y": 0.0
+                        },
+                        "PreSize": {
+                          "X": 1.735,
+                          "Y": 0.745
+                        },
+                        "RightMargin": -147.0,
+                        "TopMargin": 51.0,
+                        "Tag": 234,
+                        "ActionTag": -170793340,
+                        "Size": {
+                          "X": 347.0,
+                          "Y": 149.0
+                        },
+                        "VisibleForFrame": false,
+                        "Name": "break_img",
+                        "ctype": "ImageViewObjectData"
+                      }
+                    ],
+                    "ActionTag": 403144017,
+                    "Size": {
+                      "X": 200.0,
+                      "Y": 200.0
+                    },
+                    "Name": "player_tile_panel",
+                    "ctype": "PanelObjectData"
+                  },
+                  {
+                    "FontSize": 14,
+                    "ButtonText": "",
+                    "TextColor": {
+                      "R": 65,
+                      "G": 65,
+                      "B": 70
+                    },
+                    "DisabledFileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "PSGameRoomUI/see_enable_btn.png",
+                      "Plist": "PSGameRoomUI.plist"
+                    },
+                    "NormalFileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "PSGameRoomUI/see_btn.png",
+                      "Plist": "PSGameRoomUI.plist"
+                    },
+                    "Scale9Enable": true,
+                    "Scale9OriginX": 15,
+                    "Scale9OriginY": 11,
+                    "Scale9Width": 142,
+                    "Scale9Height": 30,
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "TouchEnable": true,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 163.2,
+                      "Y": 70.62
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.34,
+                      "Y": 0.33
+                    },
+                    "PreSize": {
+                      "X": 0.3583,
+                      "Y": 0.243
+                    },
+                    "LeftMargin": 77.2,
+                    "RightMargin": 230.8,
+                    "TopMargin": 117.38,
+                    "BottomMargin": 44.62,
+                    "Tag": 262,
+                    "ActionTag": -1764888307,
+                    "Size": {
+                      "X": 172.0,
+                      "Y": 52.0
+                    },
+                    "Name": "see_btn",
+                    "ctype": "ButtonObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "PSGameRoomUI/see_enable_btn.png",
+                      "Plist": "PSGameRoomUI.plist"
+                    },
+                    "Scale9OriginX": 56,
+                    "Scale9OriginY": 17,
+                    "Scale9Width": 60,
+                    "Scale9Height": 18,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 163.2,
+                      "Y": 70.62
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.34,
+                      "Y": 0.33
+                    },
+                    "PreSize": {
+                      "X": 0.3583,
+                      "Y": 0.243
+                    },
+                    "LeftMargin": 77.2,
+                    "RightMargin": 230.8,
+                    "TopMargin": 117.38,
+                    "BottomMargin": 44.62,
+                    "Tag": 234,
+                    "ActionTag": 850790939,
+                    "Size": {
+                      "X": 172.0,
+                      "Y": 52.0
+                    },
+                    "VisibleForFrame": false,
+                    "Name": "stuffy_img",
+                    "ctype": "ImageViewObjectData"
+                  }
+                ],
+                "ActionTag": -375428383,
+                "Size": {
+                  "X": 480.0,
+                  "Y": 214.0
+                },
+                "Name": "player_hand_panel",
+                "ctype": "PanelObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "PSPlayerInfoNode.json",
+                  "Plist": ""
+                },
+                "StretchWidthEnable": false,
+                "StretchHeightEnable": false,
+                "InnerActionSpeed": 1.0,
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 60.0,
+                  "Y": 80.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": true,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.5
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 60.0,
+                "RightMargin": 60.0,
+                "TopMargin": 80.0,
+                "BottomMargin": 80.0,
+                "Tag": 1478,
+                "ActionTag": -1219429273,
+                "Size": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Name": "player_info_panel",
+                "ctype": "ProjectNodeObjectData"
+              }
+            ],
+            "ActionTag": -1000996875,
+            "Size": {
+              "X": 120.0,
+              "Y": 160.0
+            },
+            "Name": "player_info_panel0",
+            "ctype": "PanelObjectData"
+          },
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 102,
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 76.8,
+              "Y": 338.4
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.06,
+              "Y": 0.47
+            },
+            "PreSize": {
+              "X": 0.0938,
+              "Y": 0.2222
+            },
+            "LeftMargin": 16.8,
+            "RightMargin": 1143.2,
+            "TopMargin": 301.6,
+            "BottomMargin": 258.4,
+            "Tag": 931,
+            "Children": [
+              {
+                "ClipAble": false,
+                "BackColorAlpha": 102,
+                "SingleColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 131.196,
+                  "Y": 29.2
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 1.0933,
+                  "Y": 0.1825
+                },
+                "PreSize": {
+                  "X": 1.6667,
+                  "Y": 0.9375
+                },
+                "LeftMargin": 131.196,
+                "RightMargin": -211.196,
+                "TopMargin": -19.2,
+                "BottomMargin": 29.2,
+                "Tag": 490,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "PSPlayerTileNode.json",
+                      "Plist": ""
+                    },
+                    "StretchWidthEnable": false,
+                    "StretchHeightEnable": false,
+                    "InnerActionSpeed": 1.0,
+                    "AnchorPoint": {},
+                    "Position": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": true,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "RightMargin": 200.0,
+                    "TopMargin": 150.0,
+                    "Tag": 491,
+                    "ActionTag": -362022817,
+                    "Size": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "Name": "player_tile_panel",
+                    "ctype": "ProjectNodeObjectData"
+                  }
+                ],
+                "ActionTag": -1727577484,
+                "Size": {
+                  "X": 200.0,
+                  "Y": 150.0
+                },
+                "Name": "player_hand_panel",
+                "ctype": "PanelObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "PSPlayerInfoNode.json",
+                  "Plist": ""
+                },
+                "StretchWidthEnable": false,
+                "StretchHeightEnable": false,
+                "InnerActionSpeed": 1.0,
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 60.0,
+                  "Y": 80.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": true,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.5
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 60.0,
+                "RightMargin": 60.0,
+                "TopMargin": 80.0,
+                "BottomMargin": 80.0,
+                "Tag": 932,
+                "ActionTag": 350294312,
+                "Size": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Name": "player_info_panel",
+                "ctype": "ProjectNodeObjectData"
+              }
+            ],
+            "ActionTag": 1909358688,
+            "Size": {
+              "X": 120.0,
+              "Y": 160.0
+            },
+            "Name": "player_info_panel4",
+            "ctype": "PanelObjectData"
+          },
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 102,
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 217.6,
+              "Y": 537.192
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.17,
+              "Y": 0.7461
+            },
+            "PreSize": {
+              "X": 0.0938,
+              "Y": 0.2222
+            },
+            "LeftMargin": 157.6,
+            "RightMargin": 1002.4,
+            "TopMargin": 102.808,
+            "BottomMargin": 457.192,
+            "Tag": 1358,
+            "Children": [
+              {
+                "ClipAble": false,
+                "BackColorAlpha": 102,
+                "SingleColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 134.4,
+                  "Y": 32.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 1.12,
+                  "Y": 0.2
+                },
+                "PreSize": {
+                  "X": 1.6667,
+                  "Y": 0.9375
+                },
+                "LeftMargin": 134.4,
+                "RightMargin": -214.4,
+                "TopMargin": -22.0,
+                "BottomMargin": 32.0,
+                "Tag": 544,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "PSPlayerTileNode.json",
+                      "Plist": ""
+                    },
+                    "StretchWidthEnable": false,
+                    "StretchHeightEnable": false,
+                    "InnerActionSpeed": 1.0,
+                    "AnchorPoint": {},
+                    "Position": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": true,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "RightMargin": 200.0,
+                    "TopMargin": 150.0,
+                    "Tag": 545,
+                    "ActionTag": 2103024858,
+                    "Size": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "Name": "player_tile_panel",
+                    "ctype": "ProjectNodeObjectData"
+                  }
+                ],
+                "ActionTag": 218372974,
+                "Size": {
+                  "X": 200.0,
+                  "Y": 150.0
+                },
+                "Name": "player_hand_panel",
+                "ctype": "PanelObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "PSPlayerInfoNode.json",
+                  "Plist": ""
+                },
+                "StretchWidthEnable": false,
+                "StretchHeightEnable": false,
+                "InnerActionSpeed": 1.0,
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 60.0,
+                  "Y": 80.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": true,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.5
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 60.0,
+                "RightMargin": 60.0,
+                "TopMargin": 80.0,
+                "BottomMargin": 80.0,
+                "Tag": 1359,
+                "ActionTag": -1130665002,
+                "Size": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Name": "player_info_panel",
+                "ctype": "ProjectNodeObjectData"
+              }
+            ],
+            "ActionTag": -989484370,
+            "Size": {
+              "X": 120.0,
+              "Y": 160.0
+            },
+            "Name": "player_info_panel3",
+            "ctype": "PanelObjectData"
+          },
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 102,
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 1062.4,
+              "Y": 534.384
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PositionPercentXEnabled": true,
+            "PositionPercentYEnabled": true,
+            "PrePosition": {
+              "X": 0.83,
+              "Y": 0.7422
+            },
+            "PreSize": {
+              "X": 0.0938,
+              "Y": 0.2222
+            },
+            "LeftMargin": 1002.4,
+            "RightMargin": 157.6,
+            "TopMargin": 105.616,
+            "BottomMargin": 454.384,
+            "Tag": 1373,
+            "Children": [
+              {
+                "ClipAble": false,
+                "BackColorAlpha": 102,
+                "SingleColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "AnchorPoint": {},
+                "Position": {
+                  "X": -152.4,
+                  "Y": 32.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": -1.27,
+                  "Y": 0.2
+                },
+                "PreSize": {
+                  "X": 1.6667,
+                  "Y": 0.9375
+                },
+                "LeftMargin": -152.4,
+                "RightMargin": 72.4,
+                "TopMargin": -22.0,
+                "BottomMargin": 32.0,
+                "Tag": 556,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "PSPlayerTileNode.json",
+                      "Plist": ""
+                    },
+                    "StretchWidthEnable": false,
+                    "StretchHeightEnable": false,
+                    "InnerActionSpeed": 1.0,
+                    "AnchorPoint": {},
+                    "Position": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": true,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "RightMargin": 200.0,
+                    "TopMargin": 150.0,
+                    "Tag": 557,
+                    "ActionTag": 1905296417,
+                    "Size": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "Name": "player_tile_panel",
+                    "ctype": "ProjectNodeObjectData"
+                  }
+                ],
+                "ActionTag": -2069229913,
+                "Size": {
+                  "X": 200.0,
+                  "Y": 150.0
+                },
+                "Name": "player_hand_panel",
+                "ctype": "PanelObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "PSPlayerInfoNode.json",
+                  "Plist": ""
+                },
+                "StretchWidthEnable": false,
+                "StretchHeightEnable": false,
+                "InnerActionSpeed": 1.0,
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 60.0,
+                  "Y": 80.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": true,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.5
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 60.0,
+                "RightMargin": 60.0,
+                "TopMargin": 80.0,
+                "BottomMargin": 80.0,
+                "Tag": 1374,
+                "ActionTag": 154998945,
+                "Size": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Name": "player_info_panel",
+                "ctype": "ProjectNodeObjectData"
+              }
+            ],
+            "ActionTag": 919181573,
+            "Size": {
+              "X": 120.0,
+              "Y": 160.0
+            },
+            "Name": "player_info_panel2",
+            "ctype": "PanelObjectData"
+          },
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 102,
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 1203.2,
+              "Y": 344.376
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PositionPercentXEnabled": true,
+            "PositionPercentYEnabled": true,
+            "PrePosition": {
+              "X": 0.94,
+              "Y": 0.4783
+            },
+            "PreSize": {
+              "X": 0.0938,
+              "Y": 0.2222
+            },
+            "LeftMargin": 1143.2,
+            "RightMargin": 16.8,
+            "TopMargin": 295.624,
+            "BottomMargin": 264.376,
+            "Tag": 1388,
+            "Children": [
+              {
+                "ClipAble": false,
+                "BackColorAlpha": 102,
+                "SingleColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "FirstColor": {
+                  "R": 150,
+                  "G": 200
+                },
+                "EndColor": {},
+                "ColorVector": {
+                  "ScaleY": 1.0
+                },
+                "Scale9Width": 1,
+                "Scale9Height": 1,
+                "AnchorPoint": {},
+                "Position": {
+                  "X": -153.6,
+                  "Y": 33.2
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": -1.28,
+                  "Y": 0.2075
+                },
+                "PreSize": {
+                  "X": 1.6667,
+                  "Y": 0.9375
+                },
+                "LeftMargin": -153.6,
+                "RightMargin": 73.6,
+                "TopMargin": -23.2,
+                "BottomMargin": 33.2,
+                "Tag": 550,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "Normal",
+                      "Path": "PSPlayerTileNode.json",
+                      "Plist": ""
+                    },
+                    "StretchWidthEnable": false,
+                    "StretchHeightEnable": false,
+                    "InnerActionSpeed": 1.0,
+                    "AnchorPoint": {},
+                    "Position": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": true,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "PreSize": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "RightMargin": 200.0,
+                    "TopMargin": 150.0,
+                    "Tag": 551,
+                    "ActionTag": 1784358154,
+                    "Size": {
+                      "X": 0.0,
+                      "Y": 0.0
+                    },
+                    "Name": "player_tile_panel",
+                    "ctype": "ProjectNodeObjectData"
+                  }
+                ],
+                "ActionTag": -400120645,
+                "Size": {
+                  "X": 200.0,
+                  "Y": 150.0
+                },
+                "Name": "player_hand_panel",
+                "ctype": "PanelObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "Normal",
+                  "Path": "PSPlayerInfoNode.json",
+                  "Plist": ""
+                },
+                "StretchWidthEnable": false,
+                "StretchHeightEnable": false,
+                "InnerActionSpeed": 1.0,
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 60.0,
+                  "Y": 80.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": true,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.5
+                },
+                "PreSize": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "LeftMargin": 60.0,
+                "RightMargin": 60.0,
+                "TopMargin": 80.0,
+                "BottomMargin": 80.0,
+                "Tag": 1389,
+                "ActionTag": 385919174,
+                "Size": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Name": "player_info_panel",
+                "ctype": "ProjectNodeObjectData"
+              }
+            ],
+            "ActionTag": 1127040682,
+            "Size": {
+              "X": 120.0,
+              "Y": 160.0
+            },
+            "Name": "player_info_panel1",
+            "ctype": "PanelObjectData"
+          },
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 102,
+            "SingleColor": {
+              "R": 77,
+              "G": 77,
+              "B": 77
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 640.0,
+              "Y": 373.68
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PositionPercentXEnabled": true,
+            "PositionPercentYEnabled": true,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.519
+            },
+            "PreSize": {
+              "X": 0.4211,
+              "Y": 0.1861
+            },
+            "LeftMargin": 370.5,
+            "RightMargin": 370.5,
+            "TopMargin": 279.32,
+            "BottomMargin": 306.68,
+            "Tag": 569,
+            "ActionTag": 1684957811,
+            "Size": {
+              "X": 539.0,
+              "Y": 134.0
+            },
+            "Name": "stack_panel",
+            "ctype": "PanelObjectData"
+          },
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 102,
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 640.0,
+              "Y": 50.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PositionPercentXEnabled": true,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.0694
+            },
+            "PreSize": {
+              "X": 0.9375,
+              "Y": 0.0833
+            },
+            "LeftMargin": 40.0,
+            "RightMargin": 40.0,
+            "TopMargin": 640.0,
+            "BottomMargin": 20.0,
+            "Tag": 91,
+            "Children": [
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "DisabledFileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "PSGameRoomUI/give_up_enable_btn.png",
+                  "Plist": "PSGameRoomUI.plist"
+                },
+                "NormalFileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "PSGameRoomUI/give_up_btn.png",
+                  "Plist": "PSGameRoomUI.plist"
+                },
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 163,
+                "Scale9Height": 57,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 96.0,
+                  "Y": 30.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.08,
+                  "Y": 0.5
+                },
+                "PreSize": {
+                  "X": 0.1608,
+                  "Y": 1.3167
+                },
+                "LeftMargin": -0.5,
+                "RightMargin": 1007.5,
+                "TopMargin": -9.5,
+                "BottomMargin": -9.5,
+                "Tag": 3504,
+                "ActionTag": -2047638863,
+                "Size": {
+                  "X": 193.0,
+                  "Y": 79.0
+                },
+                "Name": "btn_op_0",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "NormalFileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "PSGameRoomUI/bottom_btn.png",
+                  "Plist": "PSGameRoomUI.plist"
+                },
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 163,
+                "Scale9Height": 57,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 297.6,
+                  "Y": 30.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.248,
+                  "Y": 0.5
+                },
+                "PreSize": {
+                  "X": 0.1608,
+                  "Y": 1.3167
+                },
+                "LeftMargin": 201.1,
+                "RightMargin": 805.9,
+                "TopMargin": -9.5,
+                "BottomMargin": -9.5,
+                "Tag": 3505,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "PSGameRoomUI/cmp_img.png",
+                      "Plist": "PSGameRoomUI.plist"
+                    },
+                    "Scale9OriginX": 9,
+                    "Scale9OriginY": 10,
+                    "Scale9Width": 45,
+                    "Scale9Height": 11,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 96.5,
+                      "Y": 44.24
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.56
+                    },
+                    "PreSize": {
+                      "X": 0.3264,
+                      "Y": 0.3924
+                    },
+                    "LeftMargin": 65.0,
+                    "RightMargin": 65.0,
+                    "TopMargin": 19.26,
+                    "BottomMargin": 28.74,
+                    "Tag": 362,
+                    "ActionTag": 71130110,
+                    "Size": {
+                      "X": 63.0,
+                      "Y": 31.0
+                    },
+                    "Name": "img1",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "PSGameRoomUI/disable_cmp_img.png",
+                      "Plist": "PSGameRoomUI.plist"
+                    },
+                    "Scale9OriginX": 9,
+                    "Scale9OriginY": 10,
+                    "Scale9Width": 45,
+                    "Scale9Height": 11,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 96.5,
+                      "Y": 44.24
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.56
+                    },
+                    "PreSize": {
+                      "X": 0.3264,
+                      "Y": 0.3924
+                    },
+                    "LeftMargin": 65.0,
+                    "RightMargin": 65.0,
+                    "TopMargin": 19.26,
+                    "BottomMargin": 28.74,
+                    "Tag": 388,
+                    "ActionTag": 1719598664,
+                    "Size": {
+                      "X": 63.0,
+                      "Y": 31.0
+                    },
+                    "Name": "img2",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "PSGameRoomUI/red_point_img.png",
+                      "Plist": "PSGameRoomUI.plist"
+                    },
+                    "Scale9OriginX": 9,
+                    "Scale9OriginY": 10,
+                    "Scale9Width": 26,
+                    "Scale9Height": 24,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 179.49,
+                      "Y": 71.1
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.93,
+                      "Y": 0.9
+                    },
+                    "PreSize": {
+                      "X": 0.228,
+                      "Y": 0.557
+                    },
+                    "LeftMargin": 157.49,
+                    "RightMargin": -8.49,
+                    "TopMargin": -14.1,
+                    "BottomMargin": 49.1,
+                    "Tag": 390,
+                    "Children": [
+                      {
+                        "IsCustomSize": true,
+                        "FontSize": 30,
+                        "LabelText": "55",
+                        "FontResource": {
+                          "Type": "Normal",
+                          "Path": "font/zhunyuan.ttf",
+                          "Plist": ""
+                        },
+                        "HorizontalAlignmentType": "HT_Center",
+                        "VerticalAlignmentType": "VT_Center",
+                        "OutlineColor": {
+                          "G": 0,
+                          "B": 0
+                        },
+                        "ShadowColor": {
+                          "R": 110,
+                          "G": 110,
+                          "B": 110
+                        },
+                        "ShadowOffsetX": 2.0,
+                        "ShadowOffsetY": -2.0,
+                        "AnchorPoint": {
+                          "ScaleX": 0.5,
+                          "ScaleY": 0.5
+                        },
+                        "Position": {
+                          "X": 22.0,
+                          "Y": 22.0
+                        },
+                        "Scale": {
+                          "ScaleX": 1.0,
+                          "ScaleY": 1.0
+                        },
+                        "CColor": {},
+                        "IconVisible": false,
+                        "PositionPercentXEnabled": true,
+                        "PositionPercentYEnabled": true,
+                        "PrePosition": {
+                          "X": 0.5,
+                          "Y": 0.5
+                        },
+                        "PreSize": {
+                          "X": 0.9091,
+                          "Y": 0.9318
+                        },
+                        "LeftMargin": 2.0,
+                        "RightMargin": 2.0,
+                        "TopMargin": 1.5,
+                        "BottomMargin": 1.5,
+                        "Tag": 391,
+                        "ActionTag": 1036606046,
+                        "Size": {
+                          "X": 40.0,
+                          "Y": 41.0
+                        },
+                        "Name": "label",
+                        "ctype": "TextObjectData"
+                      }
+                    ],
+                    "ActionTag": -426393418,
+                    "Size": {
+                      "X": 44.0,
+                      "Y": 44.0
+                    },
+                    "Name": "red_img",
+                    "ctype": "ImageViewObjectData"
+                  }
+                ],
+                "ActionTag": -1160113661,
+                "Size": {
+                  "X": 193.0,
+                  "Y": 79.0
+                },
+                "Name": "btn_op_1",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "NormalFileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "PSGameRoomUI/bottom_btn.png",
+                  "Plist": "PSGameRoomUI.plist"
+                },
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 163,
+                "Scale9Height": 57,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 499.2,
+                  "Y": 30.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.416,
+                  "Y": 0.5
+                },
+                "PreSize": {
+                  "X": 0.1608,
+                  "Y": 1.3167
+                },
+                "LeftMargin": 402.7,
+                "RightMargin": 604.3,
+                "TopMargin": -9.5,
+                "BottomMargin": -9.5,
+                "Tag": 3506,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "PSGameRoomUI/add_img.png",
+                      "Plist": "PSGameRoomUI.plist"
+                    },
+                    "Scale9OriginX": 9,
+                    "Scale9OriginY": 10,
+                    "Scale9Width": 12,
+                    "Scale9Height": 10,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 77.2,
+                      "Y": 44.24
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.4,
+                      "Y": 0.56
+                    },
+                    "PreSize": {
+                      "X": 0.1554,
+                      "Y": 0.3797
+                    },
+                    "LeftMargin": 62.2,
+                    "RightMargin": 100.8,
+                    "TopMargin": 19.76,
+                    "BottomMargin": 29.24,
+                    "Tag": 354,
+                    "ActionTag": 276242998,
+                    "Size": {
+                      "X": 30.0,
+                      "Y": 30.0
+                    },
+                    "Name": "img1",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "PSGameRoomUI/disable_add_img.png",
+                      "Plist": "PSGameRoomUI.plist"
+                    },
+                    "Scale9OriginX": 9,
+                    "Scale9OriginY": 10,
+                    "Scale9Width": 12,
+                    "Scale9Height": 10,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 77.2,
+                      "Y": 44.24
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.4,
+                      "Y": 0.56
+                    },
+                    "PreSize": {
+                      "X": 0.1554,
+                      "Y": 0.3797
+                    },
+                    "LeftMargin": 62.2,
+                    "RightMargin": 100.8,
+                    "TopMargin": 19.76,
+                    "BottomMargin": 29.24,
+                    "Tag": 387,
+                    "ActionTag": -1332441757,
+                    "Size": {
+                      "X": 30.0,
+                      "Y": 30.0
+                    },
+                    "Name": "img2",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "LabelText": "22",
+                    "LabelBMFontFile_CNB": {
+                      "Type": "Normal",
+                      "Path": "PSGameRoomUI/jiazhu.fnt",
+                      "Plist": ""
+                    },
+                    "AnchorPoint": {
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 99.8582,
+                      "Y": 41.08
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5174,
+                      "Y": 0.52
+                    },
+                    "PreSize": {
+                      "X": 0.2176,
+                      "Y": 0.4051
+                    },
+                    "LeftMargin": 99.8582,
+                    "RightMargin": 51.1418,
+                    "TopMargin": 21.92,
+                    "BottomMargin": 25.08,
+                    "Tag": 355,
+                    "ActionTag": 1038783839,
+                    "Size": {
+                      "X": 42.0,
+                      "Y": 32.0
+                    },
+                    "Name": "label1",
+                    "ctype": "TextBMFontObjectData"
+                  },
+                  {
+                    "LabelText": "22",
+                    "LabelBMFontFile_CNB": {
+                      "Type": "Normal",
+                      "Path": "PSGameRoomUI/add_disable_num.fnt",
+                      "Plist": ""
+                    },
+                    "AnchorPoint": {
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 99.8582,
+                      "Y": 41.08
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5174,
+                      "Y": 0.52
+                    },
+                    "PreSize": {
+                      "X": 0.2176,
+                      "Y": 0.4051
+                    },
+                    "LeftMargin": 99.8582,
+                    "RightMargin": 51.1418,
+                    "TopMargin": 21.92,
+                    "BottomMargin": 25.08,
+                    "Tag": 298,
+                    "ActionTag": -326991936,
+                    "Size": {
+                      "X": 42.0,
+                      "Y": 32.0
+                    },
+                    "Name": "label2",
+                    "ctype": "TextBMFontObjectData"
+                  }
+                ],
+                "ActionTag": 551627164,
+                "Size": {
+                  "X": 193.0,
+                  "Y": 79.0
+                },
+                "Name": "btn_op_2",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "NormalFileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "PSGameRoomUI/bottom_btn.png",
+                  "Plist": "PSGameRoomUI.plist"
+                },
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 163,
+                "Scale9Height": 57,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 700.8,
+                  "Y": 30.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.584,
+                  "Y": 0.5
+                },
+                "PreSize": {
+                  "X": 0.1608,
+                  "Y": 1.3167
+                },
+                "LeftMargin": 604.3,
+                "RightMargin": 402.7,
+                "TopMargin": -9.5,
+                "BottomMargin": -9.5,
+                "Tag": 356,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "PSGameRoomUI/add_img.png",
+                      "Plist": "PSGameRoomUI.plist"
+                    },
+                    "Scale9OriginX": 9,
+                    "Scale9OriginY": 10,
+                    "Scale9Width": 12,
+                    "Scale9Height": 10,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 77.2,
+                      "Y": 44.24
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.4,
+                      "Y": 0.56
+                    },
+                    "PreSize": {
+                      "X": 0.1554,
+                      "Y": 0.3797
+                    },
+                    "LeftMargin": 62.2,
+                    "RightMargin": 100.8,
+                    "TopMargin": 19.76,
+                    "BottomMargin": 29.24,
+                    "Tag": 357,
+                    "ActionTag": -1540985478,
+                    "Size": {
+                      "X": 30.0,
+                      "Y": 30.0
+                    },
+                    "Name": "img1",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "PSGameRoomUI/disable_add_img.png",
+                      "Plist": "PSGameRoomUI.plist"
+                    },
+                    "Scale9OriginX": 9,
+                    "Scale9OriginY": 10,
+                    "Scale9Width": 12,
+                    "Scale9Height": 10,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 77.2,
+                      "Y": 44.24
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.4,
+                      "Y": 0.56
+                    },
+                    "PreSize": {
+                      "X": 0.1554,
+                      "Y": 0.3797
+                    },
+                    "LeftMargin": 62.2,
+                    "RightMargin": 100.8,
+                    "TopMargin": 19.76,
+                    "BottomMargin": 29.24,
+                    "Tag": 386,
+                    "ActionTag": -546740198,
+                    "Size": {
+                      "X": 30.0,
+                      "Y": 30.0
+                    },
+                    "Name": "img2",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "LabelText": "22",
+                    "LabelBMFontFile_CNB": {
+                      "Type": "Normal",
+                      "Path": "PSGameRoomUI/jiazhu.fnt",
+                      "Plist": ""
+                    },
+                    "AnchorPoint": {
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 99.8582,
+                      "Y": 41.08
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5174,
+                      "Y": 0.52
+                    },
+                    "PreSize": {
+                      "X": 0.2176,
+                      "Y": 0.4051
+                    },
+                    "LeftMargin": 99.8582,
+                    "RightMargin": 51.1418,
+                    "TopMargin": 21.92,
+                    "BottomMargin": 25.08,
+                    "Tag": 358,
+                    "ActionTag": -1022994324,
+                    "Size": {
+                      "X": 42.0,
+                      "Y": 32.0
+                    },
+                    "Name": "label1",
+                    "ctype": "TextBMFontObjectData"
+                  },
+                  {
+                    "LabelText": "22",
+                    "LabelBMFontFile_CNB": {
+                      "Type": "Normal",
+                      "Path": "PSGameRoomUI/add_disable_num.fnt",
+                      "Plist": ""
+                    },
+                    "AnchorPoint": {
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 99.8582,
+                      "Y": 41.08
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5174,
+                      "Y": 0.52
+                    },
+                    "PreSize": {
+                      "X": 0.2176,
+                      "Y": 0.4051
+                    },
+                    "LeftMargin": 99.8582,
+                    "RightMargin": 51.1418,
+                    "TopMargin": 21.92,
+                    "BottomMargin": 25.08,
+                    "Tag": 299,
+                    "ActionTag": -931901914,
+                    "Size": {
+                      "X": 42.0,
+                      "Y": 32.0
+                    },
+                    "Name": "label2",
+                    "ctype": "TextBMFontObjectData"
+                  }
+                ],
+                "ActionTag": -89271895,
+                "Size": {
+                  "X": 193.0,
+                  "Y": 79.0
+                },
+                "Name": "btn_op_3",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "NormalFileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "PSGameRoomUI/bottom_btn.png",
+                  "Plist": "PSGameRoomUI.plist"
+                },
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 163,
+                "Scale9Height": 57,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 902.4,
+                  "Y": 30.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.752,
+                  "Y": 0.5
+                },
+                "PreSize": {
+                  "X": 0.1608,
+                  "Y": 1.3167
+                },
+                "LeftMargin": 805.9,
+                "RightMargin": 201.1,
+                "TopMargin": -9.5,
+                "BottomMargin": -9.5,
+                "Tag": 359,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "PSGameRoomUI/add_img.png",
+                      "Plist": "PSGameRoomUI.plist"
+                    },
+                    "Scale9OriginX": 9,
+                    "Scale9OriginY": 10,
+                    "Scale9Width": 12,
+                    "Scale9Height": 10,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 77.2,
+                      "Y": 44.24
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.4,
+                      "Y": 0.56
+                    },
+                    "PreSize": {
+                      "X": 0.1554,
+                      "Y": 0.3797
+                    },
+                    "LeftMargin": 62.2,
+                    "RightMargin": 100.8,
+                    "TopMargin": 19.76,
+                    "BottomMargin": 29.24,
+                    "Tag": 360,
+                    "ActionTag": -910451738,
+                    "Size": {
+                      "X": 30.0,
+                      "Y": 30.0
+                    },
+                    "Name": "img1",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "PSGameRoomUI/disable_add_img.png",
+                      "Plist": "PSGameRoomUI.plist"
+                    },
+                    "Scale9OriginX": 9,
+                    "Scale9OriginY": 10,
+                    "Scale9Width": 12,
+                    "Scale9Height": 10,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 77.2,
+                      "Y": 44.24
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.4,
+                      "Y": 0.56
+                    },
+                    "PreSize": {
+                      "X": 0.1554,
+                      "Y": 0.3797
+                    },
+                    "LeftMargin": 62.2,
+                    "RightMargin": 100.8,
+                    "TopMargin": 19.76,
+                    "BottomMargin": 29.24,
+                    "Tag": 385,
+                    "ActionTag": -1006930481,
+                    "Size": {
+                      "X": 30.0,
+                      "Y": 30.0
+                    },
+                    "Name": "img2",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "LabelText": "22",
+                    "LabelBMFontFile_CNB": {
+                      "Type": "Normal",
+                      "Path": "PSGameRoomUI/jiazhu.fnt",
+                      "Plist": ""
+                    },
+                    "AnchorPoint": {
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 99.8582,
+                      "Y": 41.08
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5174,
+                      "Y": 0.52
+                    },
+                    "PreSize": {
+                      "X": 0.2176,
+                      "Y": 0.4051
+                    },
+                    "LeftMargin": 99.8582,
+                    "RightMargin": 51.1418,
+                    "TopMargin": 21.92,
+                    "BottomMargin": 25.08,
+                    "Tag": 361,
+                    "ActionTag": -135680147,
+                    "Size": {
+                      "X": 42.0,
+                      "Y": 32.0
+                    },
+                    "Name": "label1",
+                    "ctype": "TextBMFontObjectData"
+                  },
+                  {
+                    "LabelText": "22",
+                    "LabelBMFontFile_CNB": {
+                      "Type": "Normal",
+                      "Path": "PSGameRoomUI/add_disable_num.fnt",
+                      "Plist": ""
+                    },
+                    "AnchorPoint": {
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 99.8582,
+                      "Y": 41.08
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5174,
+                      "Y": 0.52
+                    },
+                    "PreSize": {
+                      "X": 0.2176,
+                      "Y": 0.4051
+                    },
+                    "LeftMargin": 99.8582,
+                    "RightMargin": 51.1418,
+                    "TopMargin": 21.92,
+                    "BottomMargin": 25.08,
+                    "Tag": 300,
+                    "ActionTag": -1778637720,
+                    "Size": {
+                      "X": 42.0,
+                      "Y": 32.0
+                    },
+                    "Name": "label2",
+                    "ctype": "TextBMFontObjectData"
+                  }
+                ],
+                "ActionTag": 719233213,
+                "Size": {
+                  "X": 193.0,
+                  "Y": 79.0
+                },
+                "Name": "btn_op_4",
+                "ctype": "ButtonObjectData"
+              },
+              {
+                "FontSize": 14,
+                "ButtonText": "",
+                "TextColor": {
+                  "R": 65,
+                  "G": 65,
+                  "B": 70
+                },
+                "NormalFileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "PSGameRoomUI/bottom_btn.png",
+                  "Plist": "PSGameRoomUI.plist"
+                },
+                "Scale9OriginX": 15,
+                "Scale9OriginY": 11,
+                "Scale9Width": 163,
+                "Scale9Height": 57,
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "TouchEnable": true,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 1104.0,
+                  "Y": 30.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.92,
+                  "Y": 0.5
+                },
+                "PreSize": {
+                  "X": 0.1608,
+                  "Y": 1.3167
+                },
+                "LeftMargin": 1007.5,
+                "RightMargin": -0.5,
+                "TopMargin": -9.5,
+                "BottomMargin": -9.5,
+                "Tag": 1493,
+                "Children": [
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "PSGameRoomUI/follow_img.png",
+                      "Plist": "PSGameRoomUI.plist"
+                    },
+                    "Scale9OriginX": 21,
+                    "Scale9OriginY": 10,
+                    "Scale9Width": 23,
+                    "Scale9Height": 12,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 96.5,
+                      "Y": 44.24
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.56
+                    },
+                    "PreSize": {
+                      "X": 0.3368,
+                      "Y": 0.4051
+                    },
+                    "LeftMargin": 64.0,
+                    "RightMargin": 64.0,
+                    "TopMargin": 18.76,
+                    "BottomMargin": 28.24,
+                    "Tag": 353,
+                    "ActionTag": -488493951,
+                    "Size": {
+                      "X": 65.0,
+                      "Y": 32.0
+                    },
+                    "Name": "img1",
+                    "ctype": "ImageViewObjectData"
+                  },
+                  {
+                    "FileData": {
+                      "Type": "MarkedSubImage",
+                      "Path": "PSGameRoomUI/disable_follow_img.png",
+                      "Plist": "PSGameRoomUI.plist"
+                    },
+                    "Scale9OriginX": 21,
+                    "Scale9OriginY": 10,
+                    "Scale9Width": 23,
+                    "Scale9Height": 12,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 96.5,
+                      "Y": 44.24
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {},
+                    "IconVisible": false,
+                    "PositionPercentXEnabled": true,
+                    "PositionPercentYEnabled": true,
+                    "PrePosition": {
+                      "X": 0.5,
+                      "Y": 0.56
+                    },
+                    "PreSize": {
+                      "X": 0.3368,
+                      "Y": 0.4051
+                    },
+                    "LeftMargin": 64.0,
+                    "RightMargin": 64.0,
+                    "TopMargin": 18.76,
+                    "BottomMargin": 28.24,
+                    "Tag": 389,
+                    "ActionTag": 105990607,
+                    "Size": {
+                      "X": 65.0,
+                      "Y": 32.0
+                    },
+                    "Name": "img2",
+                    "ctype": "ImageViewObjectData"
+                  }
+                ],
+                "ActionTag": 528403744,
+                "Size": {
+                  "X": 193.0,
+                  "Y": 79.0
+                },
+                "Name": "btn_op_5",
+                "ctype": "ButtonObjectData"
+              }
+            ],
+            "ActionTag": -1528728686,
+            "Size": {
+              "X": 1200.0,
+              "Y": 60.0
+            },
+            "Name": "operation_panel",
+            "ctype": "PanelObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "NormalFileData": {
+              "Type": "MarkedSubImage",
+              "Path": "PSGameRoomUI/start_btn.png",
+              "Plist": "PSGameRoomUI.plist"
+            },
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 221,
+            "Scale9Height": 71,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 832.0,
+              "Y": 360.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PositionPercentXEnabled": true,
+            "PositionPercentYEnabled": true,
+            "PrePosition": {
+              "X": 0.65,
+              "Y": 0.5
+            },
+            "PreSize": {
+              "X": 0.1961,
+              "Y": 0.1292
+            },
+            "LeftMargin": 706.5,
+            "RightMargin": 322.5,
+            "TopMargin": 313.5,
+            "BottomMargin": 313.5,
+            "Tag": 293,
+            "ActionTag": -300464701,
+            "Size": {
+              "X": 251.0,
+              "Y": 93.0
+            },
+            "VisibleForFrame": false,
+            "Name": "start_btn",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "NormalFileData": {
+              "Type": "MarkedSubImage",
+              "Path": "PSGameRoomUI/ng_btn.png",
+              "Plist": "PSGameRoomUI.plist"
+            },
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 163,
+            "Scale9Height": 57,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 640.0,
+              "Y": 288.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PositionPercentXEnabled": true,
+            "PositionPercentYEnabled": true,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.4
+            },
+            "PreSize": {
+              "X": 0.1508,
+              "Y": 0.1097
+            },
+            "LeftMargin": 543.5,
+            "RightMargin": 543.5,
+            "TopMargin": 392.5,
+            "BottomMargin": 248.5,
+            "Tag": 632,
+            "ActionTag": 1613924774,
+            "Size": {
+              "X": 193.0,
+              "Y": 79.0
+            },
+            "Name": "ng_btn",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FontSize": 14,
+            "ButtonText": "",
+            "TextColor": {
+              "R": 65,
+              "G": 65,
+              "B": 70
+            },
+            "NormalFileData": {
+              "Type": "MarkedSubImage",
+              "Path": "PSGameRoomUI/auto_btn.png",
+              "Plist": "PSGameRoomUI.plist"
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 74,
+            "Scale9Height": 84,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 128.0,
+              "Y": 162.792
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PositionPercentXEnabled": true,
+            "PositionPercentYEnabled": true,
+            "PrePosition": {
+              "X": 0.1,
+              "Y": 0.2261
+            },
+            "PreSize": {
+              "X": 0.0812,
+              "Y": 0.1472
+            },
+            "LeftMargin": 76.0,
+            "RightMargin": 1100.0,
+            "TopMargin": 504.208,
+            "BottomMargin": 109.792,
+            "Tag": 178,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "PSGameRoomUI/auto_img.png",
+                  "Plist": "PSGameRoomUI.plist"
+                },
+                "Scale9OriginX": 29,
+                "Scale9OriginY": 16,
+                "Scale9Width": 31,
+                "Scale9Height": 50,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 52.0,
+                  "Y": 61.48
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.58
+                },
+                "PreSize": {
+                  "X": 0.8558,
+                  "Y": 0.7736
+                },
+                "LeftMargin": 7.5,
+                "RightMargin": 7.5,
+                "TopMargin": 3.52,
+                "BottomMargin": 20.48,
+                "Tag": 179,
+                "ActionTag": 1566433333,
+                "Size": {
+                  "X": 89.0,
+                  "Y": 82.0
+                },
+                "VisibleForFrame": false,
+                "Name": "auto_img",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "LabelText": "99",
+                "LabelBMFontFile_CNB": {
+                  "Type": "Normal",
+                  "Path": "PSGameRoomUI/jiazhu.fnt",
+                  "Plist": ""
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 52.0,
+                  "Y": 55.12
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.52
+                },
+                "PreSize": {
+                  "X": 0.4038,
+                  "Y": 0.3019
+                },
+                "LeftMargin": 31.0,
+                "RightMargin": 31.0,
+                "TopMargin": 34.88,
+                "BottomMargin": 39.12,
+                "Tag": 180,
+                "ActionTag": 326574533,
+                "Size": {
+                  "X": 42.0,
+                  "Y": 32.0
+                },
+                "Name": "label",
+                "ctype": "TextBMFontObjectData"
+              },
+              {
+                "IsCustomSize": true,
+                "FontSize": 24,
+                "LabelText": "自动跟注",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "font/zhunyuan.ttf",
+                  "Plist": ""
+                },
+                "HorizontalAlignmentType": "HT_Center",
+                "VerticalAlignmentType": "VT_Center",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 52.0,
+                  "Y": 0.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 0,
+                  "G": 201,
+                  "B": 126
+                },
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 1.4423,
+                  "Y": 0.3019
+                },
+                "LeftMargin": -23.0,
+                "RightMargin": -23.0,
+                "TopMargin": 90.0,
+                "BottomMargin": -16.0,
+                "Tag": 651,
+                "ActionTag": 1753367814,
+                "Size": {
+                  "X": 150.0,
+                  "Y": 32.0
+                },
+                "Name": "bottom_label",
+                "ctype": "TextObjectData"
+              }
+            ],
+            "ActionTag": 1272257781,
+            "Size": {
+              "X": 104.0,
+              "Y": 106.0
+            },
+            "Name": "auto_btn",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 102,
+            "SingleColor": {
+              "R": 77,
+              "G": 77,
+              "B": 77
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 640.0,
+              "Y": 360.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PositionPercentXEnabled": true,
+            "PositionPercentYEnabled": true,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5
+            },
+            "PercentWidthEnable": true,
+            "PercentHeightEnable": true,
+            "PercentWidthEnabled": true,
+            "PercentHeightEnabled": true,
+            "PreSize": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "Tag": 1140,
+            "ActionTag": 24820232,
+            "Size": {
+              "X": 1280.0,
+              "Y": 720.0
+            },
+            "Name": "action_panel",
+            "ctype": "PanelObjectData"
+          }
+        ],
+        "Size": {
+          "X": 1280.0,
+          "Y": 720.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "font/zhunyuan.ttf",
+        "GameRoom2DUI/clock_img.png",
+        "GameRoom2DUI/number4.fnt",
+        "GameRoom2DUI/number4.png",
+        "Poker.plist",
+        "Poker.png",
+        "PSGameRoomUI.plist",
+        "PSGameRoomUI.png",
+        "PSGameRoomUI/add_disable_num.fnt",
+        "PSGameRoomUI/add_disable_num.png",
+        "PSGameRoomUI/jiazhu.fnt",
+        "PSGameRoomUI/jiazhu_0.png",
+        "PSGameRoomUI/my_poker_img.png",
+        "PSPlayerInfoNode.json",
+        "PSPlayerTileNode.json"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}

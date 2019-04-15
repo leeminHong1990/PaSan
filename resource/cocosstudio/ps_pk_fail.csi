@@ -1,0 +1,17 @@
+<PlistInfoProjectFile>
+  <PropertyGroup Name="ps_pk_fail" Type="Plist" ID="63e9604d-3c6c-4d32-95ab-d32dca574305" Version="3.10.0.0" />
+  <Content ExportType="Png" SortAlgorithm="MaxRects" PicturePadding="0" AllowRotation="True" AllowAnySize="False" AllowTrim="False" ctype="PlistInfoData">
+    <ImageFiles>
+      <FilePathData Path="PSEffect/ps_pk_fail_0.png" />
+      <FilePathData Path="PSEffect/ps_pk_fail_1.png" />
+      <FilePathData Path="PSEffect/ps_pk_fail_2.png" />
+      <FilePathData Path="PSEffect/ps_pk_fail_3.png" />
+      <FilePathData Path="PSEffect/ps_pk_fail_4.png" />
+      <FilePathData Path="PSEffect/ps_pk_fail_5.png" />
+      <FilePathData Path="PSEffect/ps_pk_fail_6.png" />
+      <FilePathData Path="PSEffect/ps_pk_fail_7.png" />
+      <FilePathData Path="PSEffect/ps_pk_fail_8.png" />
+    </ImageFiles>
+    <MaxSize Width="512" Height="512" />
+  </Content>
+</PlistInfoProjectFile>

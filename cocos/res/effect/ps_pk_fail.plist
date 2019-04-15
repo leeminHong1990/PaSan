@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>frames</key>
+		<dict>
+			<key>ps_pk_fail_0.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,0},{168,167}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{168,167}</string>
+			</dict>
+			<key>ps_pk_fail_1.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{168,0},{168,167}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{168,167}</string>
+			</dict>
+			<key>ps_pk_fail_2.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{336,0},{168,167}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{168,167}</string>
+			</dict>
+			<key>ps_pk_fail_3.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,167},{168,167}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{168,167}</string>
+			</dict>
+			<key>ps_pk_fail_4.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,335},{168,167}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{168,167}</string>
+			</dict>
+			<key>ps_pk_fail_5.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{167,167},{168,167}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{168,167}</string>
+			</dict>
+			<key>ps_pk_fail_6.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{335,167},{168,167}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{168,167}</string>
+			</dict>
+			<key>ps_pk_fail_7.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{167,334},{168,167}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{168,167}</string>
+			</dict>
+			<key>ps_pk_fail_8.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{334,334},{168,167}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{168,167}</string>
+			</dict>
+		</dict>
+		<key>metadata</key>
+		<dict>
+			<key>format</key>
+			<integer>2</integer>
+			<key>textureFileName</key>
+			<string>ps_pk_fail.png</string>
+			<key>realTextureFileName</key>
+			<string>ps_pk_fail.png</string>
+			<key>size</key>
+			<string>{512,512}</string>
+		</dict>
+		<key>texture</key>
+		<dict>
+			<key>width</key>
+			<integer>512</integer>
+			<key>height</key>
+			<integer>512</integer>
+		</dict>
+	</dict>
+</plist>

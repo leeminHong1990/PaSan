@@ -1,0 +1,247 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>frames</key>
+		<dict>
+			<key>PSGameAction/guang.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{911,367},{201,70}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{201,70}</string>
+			</dict>
+			<key>PSGameAction/k.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{911,220},{145,112}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{145,112}</string>
+			</dict>
+			<key>PSGameAction/la.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{177,450},{67,64}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{67,64}</string>
+			</dict>
+			<key>PSGameAction/ni.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{426,449},{70,62}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{70,62}</string>
+			</dict>
+			<key>PSGameAction/ying.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{104,450},{71,64}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{71,64}</string>
+			</dict>
+			<key>PSGameAction/you.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,1},{487,243}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{487,243}</string>
+			</dict>
+			<key>PSGameAction/zuo.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{490,220},{419,241}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{419,241}</string>
+			</dict>
+			<key>PSGameAction/jieriyanhua2_01.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,448},{99,101}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{99,101}</string>
+			</dict>
+			<key>PSGameAction/dou.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{983,491},{21,58}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{21,58}</string>
+			</dict>
+			<key>PSGameAction/jieriyanhua2_03.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{341,246},{100,101}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{100,101}</string>
+			</dict>
+			<key>PSGameAction/jieriyanhua2_05.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{134,246},{101,101}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{101,101}</string>
+			</dict>
+			<key>PSGameAction/jieriyanhua2_07.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{340,348},{99,101}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{99,101}</string>
+			</dict>
+			<key>PSGameAction/jieriyanhua2_09.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{237,348},{100,101}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{100,101}</string>
+			</dict>
+			<key>PSGameAction/jieriyanhua2_11.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,345},{101,101}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{101,101}</string>
+			</dict>
+			<key>PSGameAction/jieriyanhua2_13.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{104,349},{99,102}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{99,102}</string>
+			</dict>
+			<key>PSGameAction/jieriyanhua2_15.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{237,246},{100,102}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{100,102}</string>
+			</dict>
+			<key>PSGameAction/jtguang.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{983,367},{122,21}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{122,21}</string>
+			</dict>
+			<key>PSGameAction/P.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,246},{131,97}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{131,97}</string>
+			</dict>
+			<key>PSGameAction/yuan.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{340,449},{84,84}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{84,84}</string>
+			</dict>
+			<key>PSGameAction/guang2.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{490,1},{518,217}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{518,217}</string>
+			</dict>
+		</dict>
+		<key>metadata</key>
+		<dict>
+			<key>format</key>
+			<integer>2</integer>
+			<key>textureFileName</key>
+			<string>PSGameAction.png</string>
+			<key>realTextureFileName</key>
+			<string>PSGameAction.png</string>
+			<key>size</key>
+			<string>{1024,1024}</string>
+		</dict>
+		<key>texture</key>
+		<dict>
+			<key>width</key>
+			<integer>1024</integer>
+			<key>height</key>
+			<integer>1024</integer>
+		</dict>
+	</dict>
+</plist>

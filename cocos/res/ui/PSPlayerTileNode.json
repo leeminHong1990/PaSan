@@ -1,0 +1,459 @@
+{
+  "ID": "72239594-8f3d-4203-99aa-2862339dd068",
+  "Version": "3.10.0.0",
+  "Name": "PSPlayerTileNode",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 773,
+        "Children": [
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 102,
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "AnchorPoint": {},
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "RightMargin": -144.0,
+            "TopMargin": -89.0,
+            "Tag": 465,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "Poker/pic_poker_a1.png",
+                  "Plist": "Poker.plist"
+                },
+                "Scale9Width": 153,
+                "Scale9Height": 214,
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "Scale": {
+                  "ScaleX": 0.41,
+                  "ScaleY": 0.41
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 1.0625,
+                  "Y": 2.4045
+                },
+                "RightMargin": -9.0,
+                "TopMargin": -125.0,
+                "Tag": 776,
+                "ActionTag": -2015782756,
+                "Size": {
+                  "X": 153.0,
+                  "Y": 214.0
+                },
+                "Name": "tile_img_0",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "Poker/pic_poker_a1.png",
+                  "Plist": "Poker.plist"
+                },
+                "Scale9Width": 153,
+                "Scale9Height": 214,
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 40.0,
+                  "Y": 0.0
+                },
+                "Scale": {
+                  "ScaleX": 0.41,
+                  "ScaleY": 0.41
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.2778,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 1.0625,
+                  "Y": 2.4045
+                },
+                "LeftMargin": 40.0,
+                "RightMargin": -49.0,
+                "TopMargin": -125.0,
+                "Tag": 778,
+                "ActionTag": 589191562,
+                "Size": {
+                  "X": 153.0,
+                  "Y": 214.0
+                },
+                "Name": "tile_img_1",
+                "ctype": "ImageViewObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "Poker/pic_poker_a1.png",
+                  "Plist": "Poker.plist"
+                },
+                "Scale9Width": 153,
+                "Scale9Height": 214,
+                "AnchorPoint": {},
+                "Position": {
+                  "X": 80.0,
+                  "Y": 0.0
+                },
+                "Scale": {
+                  "ScaleX": 0.41,
+                  "ScaleY": 0.41
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5556,
+                  "Y": 0.0
+                },
+                "PreSize": {
+                  "X": 1.0625,
+                  "Y": 2.4045
+                },
+                "LeftMargin": 80.0,
+                "RightMargin": -89.0,
+                "TopMargin": -125.0,
+                "Tag": 780,
+                "ActionTag": -1427641721,
+                "Size": {
+                  "X": 153.0,
+                  "Y": 214.0
+                },
+                "Name": "tile_img_2",
+                "ctype": "ImageViewObjectData"
+              }
+            ],
+            "ActionTag": -1563639527,
+            "Size": {
+              "X": 144.0,
+              "Y": 89.0
+            },
+            "Name": "poker_panel",
+            "ctype": "PanelObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "PSGameRoomUI/press_score_img.png",
+              "Plist": "PSGameRoomUI.plist"
+            },
+            "Scale9OriginX": 59,
+            "Scale9OriginY": 16,
+            "Scale9Width": 27,
+            "Scale9Height": 5,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 73.25,
+              "Y": 112.05
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 0.75,
+            "RightMargin": -145.75,
+            "TopMargin": -130.55,
+            "BottomMargin": 93.55,
+            "Tag": 569,
+            "Children": [
+              {
+                "IsCustomSize": true,
+                "FontSize": 26,
+                "LabelText": "1000",
+                "HorizontalAlignmentType": "HT_Center",
+                "VerticalAlignmentType": "VT_Center",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 62.35,
+                  "Y": 19.24
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "G": 210,
+                  "B": 0
+                },
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.43,
+                  "Y": 0.52
+                },
+                "PreSize": {
+                  "X": 0.4897,
+                  "Y": 0.8649
+                },
+                "LeftMargin": 26.85,
+                "RightMargin": 47.15,
+                "TopMargin": 1.76,
+                "BottomMargin": 3.24,
+                "Tag": 570,
+                "ActionTag": -795924278,
+                "Size": {
+                  "X": 71.0,
+                  "Y": 32.0
+                },
+                "Name": "score_label",
+                "ctype": "TextObjectData"
+              }
+            ],
+            "ActionTag": -1809147357,
+            "Size": {
+              "X": 145.0,
+              "Y": 37.0
+            },
+            "Name": "score_img",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "PSGameRoomUI/word_img.png",
+              "Plist": "PSGameRoomUI.plist"
+            },
+            "Scale9OriginX": 11,
+            "Scale9OriginY": 24,
+            "Scale9Width": 12,
+            "Scale9Height": 26,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 173.0,
+              "Y": 43.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": 156.0,
+            "RightMargin": -190.0,
+            "TopMargin": -80.0,
+            "BottomMargin": 6.0,
+            "Tag": 1586,
+            "Children": [
+              {
+                "IsCustomSize": true,
+                "FontSize": 26,
+                "LabelText": "对\n子",
+                "FontResource": {
+                  "Type": "Normal",
+                  "Path": "font/zhunyuan.ttf",
+                  "Plist": ""
+                },
+                "HorizontalAlignmentType": "HT_Center",
+                "VerticalAlignmentType": "VT_Center",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 17.0,
+                  "Y": 37.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "G": 210,
+                  "B": 0
+                },
+                "IconVisible": false,
+                "PositionPercentXEnabled": true,
+                "PositionPercentYEnabled": true,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.5
+                },
+                "PreSize": {
+                  "X": 0.9412,
+                  "Y": 0.8919
+                },
+                "LeftMargin": 1.0,
+                "RightMargin": 1.0,
+                "TopMargin": 4.0,
+                "BottomMargin": 4.0,
+                "Tag": 38,
+                "ActionTag": -2097264408,
+                "Size": {
+                  "X": 32.0,
+                  "Y": 66.0
+                },
+                "Name": "label",
+                "ctype": "TextObjectData"
+              }
+            ],
+            "ActionTag": -902817108,
+            "Size": {
+              "X": 34.0,
+              "Y": 74.0
+            },
+            "VisibleForFrame": false,
+            "Name": "type_img",
+            "ctype": "ImageViewObjectData"
+          },
+          {
+            "FlipX": true,
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "PSGameRoomUI/break_poker_img.png",
+              "Plist": "PSGameRoomUI.plist"
+            },
+            "Scale9OriginX": 47,
+            "Scale9OriginY": 30,
+            "Scale9Width": 49,
+            "Scale9Height": 31,
+            "AnchorPoint": {
+              "ScaleX": 1.0
+            },
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "LeftMargin": -143.0,
+            "TopMargin": -91.0,
+            "Tag": 244,
+            "ActionTag": -407154861,
+            "Size": {
+              "X": 143.0,
+              "Y": 91.0
+            },
+            "VisibleForFrame": false,
+            "Name": "break_img",
+            "ctype": "ImageViewObjectData"
+          }
+        ],
+        "Size": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Name": "Node",
+        "ctype": "SingleNodeObjectData"
+      },
+      "UsedResources": [
+        "font/zhunyuan.ttf",
+        "Poker.plist",
+        "Poker.png",
+        "PSGameRoomUI.plist",
+        "PSGameRoomUI.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Node"
+}

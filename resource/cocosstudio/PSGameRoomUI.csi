@@ -1,0 +1,57 @@
+<PlistInfoProjectFile>
+  <PropertyGroup Name="PSGameRoomUI" Type="Plist" ID="5a941cb6-7332-4ec7-9dbf-0d69e68e2603" Version="3.10.0.0" />
+  <Content ExportType="Png" SortAlgorithm="MaxRects" PicturePadding="1" AllowRotation="True" AllowAnySize="False" AllowTrim="False" ctype="PlistInfoData">
+    <ImageFiles>
+      <FilePathData Path="PSGameRoomUI/break_poker_img.png" />
+      <FilePathData Path="PSGameRoomUI/communicate_btn.png" />
+      <FilePathData Path="PSGameRoomUI/communicate_img.png" />
+      <FilePathData Path="PSGameRoomUI/give_up_btn.png" />
+      <FilePathData Path="PSGameRoomUI/GPS_btn.png" />
+      <FilePathData Path="PSGameRoomUI/head_frame_img.png" />
+      <FilePathData Path="PSGameRoomUI/head_light_img.png" />
+      <FilePathData Path="PSGameRoomUI/hook_img.png" />
+      <FilePathData Path="PSGameRoomUI/invite_btn.png" />
+      <FilePathData Path="PSGameRoomUI/npc_img.png" />
+      <FilePathData Path="PSGameRoomUI/prepare_btn.png" />
+      <FilePathData Path="PSGameRoomUI/press_score_img.png" />
+      <FilePathData Path="PSGameRoomUI/quite_room_btn.png" />
+      <FilePathData Path="PSGameRoomUI/raise1_img.png" />
+      <FilePathData Path="PSGameRoomUI/raise2_img.png" />
+      <FilePathData Path="PSGameRoomUI/raise4_img.png" />
+      <FilePathData Path="PSGameRoomUI/record_btn.png" />
+      <FilePathData Path="PSGameRoomUI/red_point_img.png" />
+      <FilePathData Path="PSGameRoomUI/ruler_btn.png" />
+      <FilePathData Path="PSGameRoomUI/score_img.png" />
+      <FilePathData Path="PSGameRoomUI/setting_btn.png" />
+      <FilePathData Path="PSGameRoomUI/start_btn.png" />
+      <FilePathData Path="PSGameRoomUI/word_img.png" />
+      <FilePathData Path="PSGameRoomUI/dealer_img.png" />
+      <FilePathData Path="PSGameRoomUI/see_btn.png" />
+      <FilePathData Path="PSGameRoomUI/see_enable_btn.png" />
+      <FilePathData Path="PSGameRoomUI/touch_btn.png" />
+      <FilePathData Path="PSGameRoomUI/prompt_img.png" />
+      <FilePathData Path="PSGameRoomUI/auto_btn.png" />
+      <FilePathData Path="PSGameRoomUI/auto_img.png" />
+      <FilePathData Path="PSGameRoomUI/ng_btn.png" />
+      <FilePathData Path="PSGameRoomUI/share_btn.png" />
+      <FilePathData Path="PSGameRoomUI/give_up_enable_btn.png" />
+      <FilePathData Path="PSGameRoomUI/close_room_btn.png" />
+      <FilePathData Path="PSGameRoomUI/club_invite_btn.png" />
+      <FilePathData Path="PSGameRoomUI/raise3_img.png" />
+      <FilePathData Path="PSGameRoomUI/raise5_img.png" />
+      <FilePathData Path="PSGameRoomUI/add_img.png" />
+      <FilePathData Path="PSGameRoomUI/bottom_btn.png" />
+      <FilePathData Path="PSGameRoomUI/cmp_img.png" />
+      <FilePathData Path="PSGameRoomUI/follow_img.png" />
+      <FilePathData Path="PSGameRoomUI/raise_img.png" />
+      <FilePathData Path="PSGameRoomUI/raise6_img.png" />
+      <FilePathData Path="PSGameRoomUI/raise7_img.png" />
+      <FilePathData Path="PSGameRoomUI/raise8_img.png" />
+      <FilePathData Path="PSGameRoomUI/raise9_img.png" />
+      <FilePathData Path="PSGameRoomUI/disable_add_img.png" />
+      <FilePathData Path="PSGameRoomUI/disable_cmp_img.png" />
+      <FilePathData Path="PSGameRoomUI/disable_follow_img.png" />
+    </ImageFiles>
+    <MaxSize Width="1024" Height="1024" />
+  </Content>
+</PlistInfoProjectFile>
